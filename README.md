@@ -1,26 +1,26 @@
-# 🌿 Zariya — Real-time Posture Monitoring Dashboard
+# Zariya — Real-time Posture Monitoring Dashboard
 
 > **Real-time posture protection for new mothers** — A full-stack web application built with Next.js, PostgreSQL, Prisma, and Socket.IO, designed to work with ESP32 + BNO055 wearable hardware.
 
 ---
 
-## 📸 Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🟢 Live Posture Status | Real-time good/warning/bad/very_bad indicator with color-coded UI |
-| 🚨 Smart Alerts | Flash alerts for poor posture with severity levels (critical/warning) |
-| 📊 Analytics | Daily charts, % good posture, average deviation trends |
-| 🤖 Zariya AI Chat | Posture advice chatbot with predefined expert responses |
-| 🔌 Hardware Integration | REST API endpoint for ESP32 → PostgreSQL data pipeline |
-| ⚡ Real-time Updates | WebSocket-powered live UI via Socket.IO |
-| 🎭 Demo Mode | Built-in mock data simulator (no hardware needed) |
-| 🔐 Authentication | NextAuth with credentials + demo login |
-| ⏱️ Session Timer | Tracks how long you've been monitoring |
+|  Live Posture Status | Real-time good/warning/bad/very_bad indicator with color-coded UI |
+|  Smart Alerts | Flash alerts for poor posture with severity levels (critical/warning) |
+|  Analytics | Daily charts, % good posture, average deviation trends |
+|  Zariya AI Chat | Posture advice chatbot with predefined expert responses |
+|  Hardware Integration | REST API endpoint for ESP32 → PostgreSQL data pipeline |
+|  Real-time Updates | WebSocket-powered live UI via Socket.IO |
+|  Demo Mode | Built-in mock data simulator (no hardware needed) |
+|  Authentication | NextAuth with credentials + demo login |
+|  Session Timer | Tracks how long you've been monitoring |
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Database**: PostgreSQL
@@ -33,7 +33,7 @@
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 
@@ -95,7 +95,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔌 Hardware Integration (ESP32 + BNO055)
+##  Hardware Integration (ESP32 + BNO055)
 
 ### API Endpoint
 
@@ -144,7 +144,7 @@ const char* API_ENDPOINT  = "http://YOUR_SERVER_IP:3000/api/posture";
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 zariya/
@@ -188,7 +188,7 @@ zariya/
 
 ---
 
-## 📊 Database Schema
+##  Database Schema
 
 ```sql
 -- PostureLog: every reading from the sensor
@@ -216,13 +216,13 @@ password  TEXT?
 
 ---
 
-## 🎭 Demo Mode
+##  Demo Mode
 
 No hardware? No problem. Enable **Demo Mode** on the dashboard to simulate ESP32 readings every 3 seconds. You can also click **"Send"** to trigger a single reading manually.
 
 ---
 
-## 🚢 Production Deployment
+##  Production Deployment
 
 ### Environment Variables
 
@@ -246,7 +246,7 @@ npm start
 
 ---
 
-## 🩺 Health Check
+##  Health Check
 
 Test your API:
 
@@ -265,7 +265,7 @@ curl "http://localhost:3000/api/analytics?days=7"
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 Zariya uses a custom maternal-wellness color palette:
 
@@ -280,6 +280,6 @@ Fonts: **Cormorant Garamond** (headings) + **DM Sans** (body)
 
 ---
 
-## 📄 License
+##  License
 
-MIT © 2024 Zariya Health
+MIT © 2026 Hajrah Tahreem
